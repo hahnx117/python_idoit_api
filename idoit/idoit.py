@@ -1,6 +1,7 @@
 import json
 import requests
 from pprint import pprint
+#from idoit import HOST_TYPE_DICT
 import getpass
 import sys
 
@@ -184,7 +185,7 @@ class IdoitServer:
 
 
         def create_host(self, vm_name):
-        """Create a new host type object with some optional information."""
+            """Create a new host type object with some optional information."""
 
         # First check if the VM exists,
         try:
